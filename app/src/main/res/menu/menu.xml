@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/web"
+        android:icon="@drawable/ic_google"
+        android:title="Μικροφωνο"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/microphone"
+        android:icon="@drawable/ic_baseline_mic_24"
+        android:title="Μικροφωνο"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Item1"
+        app:showAsAction="always"/>
+    <item android:id="@+id/profile"
+        android:title="@string/profile"
+        app:showAsAction="never"/>
+    <item android:id="@+id/code"
+        android:title="@string/addmessage"
+        app:showAsAction="never"/>
+    <item android:id="@+id/edit"
+        android:title="@string/editmessages"
+        app:showAsAction="never"/>
+
+</menu>
